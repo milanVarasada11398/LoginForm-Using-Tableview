@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		E35BDB6D22E1A34E00623B62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35BDB6C22E1A34E00623B62 /* AppDelegate.swift */; };
-		E35BDB6F22E1A34E00623B62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35BDB6E22E1A34E00623B62 /* ViewController.swift */; };
 		E35BDB7222E1A34E00623B62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35BDB7022E1A34E00623B62 /* Main.storyboard */; };
 		E35BDB7422E1A34F00623B62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35BDB7322E1A34F00623B62 /* Assets.xcassets */; };
 		E35BDB7722E1A34F00623B62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35BDB7522E1A34F00623B62 /* LaunchScreen.storyboard */; };
+		E35BDB7F22E1A38400623B62 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35BDB7E22E1A38400623B62 /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E35BDB6922E1A34E00623B62 /* LoginForm Using Tableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LoginForm Using Tableview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35BDB6C22E1A34E00623B62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E35BDB6E22E1A34E00623B62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E35BDB7122E1A34E00623B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E35BDB7322E1A34F00623B62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E35BDB7622E1A34F00623B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E35BDB7822E1A34F00623B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35BDB7E22E1A38400623B62 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				E35BDB6C22E1A34E00623B62 /* AppDelegate.swift */,
-				E35BDB6E22E1A34E00623B62 /* ViewController.swift */,
 				E35BDB7022E1A34E00623B62 /* Main.storyboard */,
 				E35BDB7322E1A34F00623B62 /* Assets.xcassets */,
 				E35BDB7522E1A34F00623B62 /* LaunchScreen.storyboard */,
 				E35BDB7822E1A34F00623B62 /* Info.plist */,
+				E35BDB7E22E1A38400623B62 /* LoginController.swift */,
 			);
 			path = "LoginForm Using Tableview";
 			sourceTree = "<group>";
@@ -135,8 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E35BDB6F22E1A34E00623B62 /* ViewController.swift in Sources */,
 				E35BDB6D22E1A34E00623B62 /* AppDelegate.swift in Sources */,
+				E35BDB7F22E1A38400623B62 /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
