@@ -27,7 +27,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="219"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sa" translatesAutoresizingMaskIntoConstraints="NO" id="SHP-Bz-x0K">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="SHP-Bz-x0K">
                                                     <rect key="frame" x="112.5" y="34.5" width="150" height="150"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="150" id="90m-tU-1ht"/>
@@ -296,6 +296,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="sa" width="200" height="200"/>
+        <image name="download" width="300" height="168"/>
     </resources>
 </document>

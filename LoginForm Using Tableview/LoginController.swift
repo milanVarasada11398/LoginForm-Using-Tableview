@@ -38,10 +38,12 @@ class LoginController: UITableViewController {
 //               return tableView.bounds.height * 0.35
 //            } else
             if SignInHiddenRows.contains(indexPath.row) {
+                profileImage.image = UIImage(named: "login")
                   return 0
             }
         } else {
             if SignUpHiddenRows.contains(indexPath.row) {
+                 profileImage.image = UIImage(named: "register")
                 return 0
             }
         }
